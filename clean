@@ -1,0 +1,6 @@
+rm -f ca*
+rm -f id*
+rm -f known_hosts
+rm -f ssh_*
+rm -f sshd_config
+rm -f host_ca_testing*

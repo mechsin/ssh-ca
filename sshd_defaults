@@ -1,0 +1,14 @@
+# Turn this on so it is easier to trouble shoot 
+# configuration problems on the server
+SyslogFacility AUTH
+# LogLevel INFO
+LogLevel DEBUG
+# These are the generic defaults from Debian SSH Server
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+
+
